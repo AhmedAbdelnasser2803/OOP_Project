@@ -2,10 +2,11 @@ package firstPackage;
 
 public class FirstClass
 {
-    //simple methiod to print the words
-    public static void  printLine()
+    //simple method to print the words
+    public static void  printLine(String x)
     {
-        System.out.println("hello from print line method");
+        //concatenate string in java using "+"
+        System.out.println("hello from "+"method " + x);
     }
     public static void printLine2(String x)
     {
