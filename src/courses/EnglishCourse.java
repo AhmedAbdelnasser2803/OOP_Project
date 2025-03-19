@@ -5,17 +5,10 @@ public class EnglishCourse {
 
     public static void main(String [] args)
     {
-           print();
-           print2();
+        testPramaterVariable(50);
     }
-    public static void print()
+    public static void testPramaterVariable(int age)
     {
-        int age = 50;
-        System.out.println("the age is "+age);
-    }
-    public static void print2 ()
-    {
-        int age =200 ;
         System.out.println("the age is "+age);
     }
 }
