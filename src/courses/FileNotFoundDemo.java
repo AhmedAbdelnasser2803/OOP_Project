@@ -25,8 +25,14 @@ public class FileNotFoundDemo {
     }
     public void TestArray()
     {
-        int arr1 [] = {1,2,3,4,5,6};
-        System.out.println("the value is "+arr1[7]);
+
+        try {
+            int arr1 [] = {1,2,3,4,5,6};
+            System.out.println("the value is "+arr1[7]);
+        } catch (ArrayIndexOutOfBoundsException e) {
+            System.out.println("ex : " + e);
+        }
+        System.out.println("please enter number again ");
     }
 
 }
